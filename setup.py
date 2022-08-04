@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="hiboutik",
-    version="1.1",
+    version="1.2",
     description="Client library for Hiboutik APIs",
     long_description="Client library for Hiboutik APIs",
     author="David Patiashvili",
