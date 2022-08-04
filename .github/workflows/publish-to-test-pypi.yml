@@ -1,9 +1,16 @@
 name: Publish Python 🐍 distributions 📦 to PyPI and TestPyPI
 
 on: push
+  workflow_call:
+    secrets:
+      TEST_PYPI_API_TOKEN:
+        required: true
+      PYPI_API_TOKEN:
+        required: true
 
 jobs:
   build-n-publish:
+    environment: Test
     name: Build and publish Python 🐍 distributions 📦 to PyPI and TestPyPI
     runs-on: ubuntu-latest
     steps:
