@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hiboutik
+Version: 1.0
+Summary: Client library for Hiboutik APIs
+Author: David Patiashvili
+Author-email: stratagem.david+hiboutik@gmail.com
+License: GPLv3+
+License-File: LICENSE
